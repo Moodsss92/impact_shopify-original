@@ -185,8 +185,8 @@
         "heading_cCfBaH": {
           "type": "heading",
           "settings": {
-            "text": "Heading",
-            "heading_tag": "h1",
+            "text": "Eine innovative Anti-Aging-Lösung",
+            "heading_tag": "h2",
             "text_color": "",
             "gradient": ""
           }
@@ -230,23 +230,11 @@
         "allow_transparent_header": false,
         "autoplay": false,
         "video_size": "auto",
-        "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "video": "shopify://files/videos/45989edf71774b4baa8593edf824422d.mp4",
+        "external_video_url": "",
         "text_color": "#ffffff",
         "overlay_color": "#000000",
         "overlay_opacity": 30
-      }
-    },
-    "custom_liquid_qQPXBt": {
-      "type": "custom-liquid",
-      "name": "Custom Liquid / trust pilot",
-      "settings": {
-        "full_width": true,
-        "remove_vertical_spacing": false,
-        "remove_horizontal_spacing": false,
-        "liquid": "<p style=\"text-align: center\">Write or copy/paste Liquid code</p>",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
       }
     },
     "multi_column_nUcbXx": {
@@ -295,6 +283,126 @@
         "item_nriJyf"
       ],
       "name": "Multi-column AVANT APRES ",
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "gap": "medium",
+        "text_alignment": "start",
+        "subheading": "About",
+        "title": "Featured content",
+        "content": "<p>Organize content into multiple columns to share useful information to your customers about your products, values...</p>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "image_with_text_overlay_JVzdwf": {
+      "type": "image-with-text-overlay",
+      "name": "Image with text overlay",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify://shop_images/Ajouter_un_titre_3.png",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "multi_column_D6wyMq": {
+      "type": "multi-column",
+      "blocks": {
+        "item_Ti9wgj": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Falten_feine_Linien_3a94348b-1e4c-43d8-959f-fb3b81de7b65.png",
+            "column_size": "3",
+            "title": "Karoline M.",
+            "heading_tag": "h4",
+            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_xWzJT6": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Pigmentflecken_und_altersbedingte_Hautverfarbungen_5d6a4998-7b37-4697-8737-f62a9941c19d.png",
+            "column_size": "3",
+            "title": "Greta H.",
+            "heading_tag": "h4",
+            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_KbLAJ9": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Krahenfusse_e6f2cc90-73ca-4896-aeef-e8aa92a6b112.png",
+            "column_size": "3",
+            "title": "Frieda J.",
+            "heading_tag": "h4",
+            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_A8nQfX": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Augensacke_und_Augenfalten_e2b707fa-2159-46f0-8667-bdbf26219692.png",
+            "column_size": "3",
+            "title": "Ilse M.",
+            "heading_tag": "h4",
+            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_CghjHg": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Krahenfusse_2_85311dbd-8e59-4f67-a8aa-2b79ec5a33c4.png",
+            "column_size": "3",
+            "title": "Sophie T.",
+            "heading_tag": "h4",
+            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_qTH9MU": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Falten_feine_Linien_1_7862728d-1e67-414b-8fc6-35a5638d0c63.png",
+            "column_size": "3",
+            "title": "Emma R.",
+            "heading_tag": "h4",
+            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "item_Ti9wgj",
+        "item_xWzJT6",
+        "item_KbLAJ9",
+        "item_A8nQfX",
+        "item_CghjHg",
+        "item_qTH9MU"
+      ],
+      "name": "Multi-column",
       "settings": {
         "full_width": true,
         "stack_on_mobile": false,
@@ -869,8 +977,9 @@
     "image-with-text-overlay",
     "rich_text_9J6mWn",
     "video_8Cwbyn",
-    "custom_liquid_qQPXBt",
     "multi_column_nUcbXx",
+    "image_with_text_overlay_JVzdwf",
+    "multi_column_D6wyMq",
     "collection-list",
     "featured-collection",
     "impact-text",
