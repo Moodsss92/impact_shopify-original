@@ -419,9 +419,11 @@
     "featured_product_UWXbFN": {
       "type": "featured-product",
       "blocks": {
-        "vendor_mMeabi": {
-          "type": "vendor",
-          "settings": {}
+        "liquid_ctm6Jd": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<div style=\"display: flex; align-items: center; gap: 8px; margin: 15px 0;\">\n\n  <!-- Étoiles Trustpilot -->\n  <div style=\"display: flex; gap: 2px;\">\n    <!-- Étoile 1 -->\n    <div style=\"width: 20px; height: 20px; background: #00B67A; display: flex; align-items: center; justify-content: center; border-radius: 3px;\">\n      <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"white\" width=\"14\" height=\"14\"><path d=\"M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z\"/></svg>\n    </div>\n    <!-- Étoile 2 -->\n    <div style=\"width: 20px; height: 20px; background: #00B67A; display: flex; align-items: center; justify-content: center; border-radius: 3px;\">\n      <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"white\" width=\"14\" height=\"14\"><path d=\"M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z\"/></svg>\n    </div>\n    <!-- Étoile 3 -->\n    <div style=\"width: 20px; height: 20px; background: #00B67A; display: flex; align-items: center; justify-content: center; border-radius: 3px;\">\n      <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"white\" width=\"14\" height=\"14\"><path d=\"M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z\"/></svg>\n    </div>\n    <!-- Étoile 4 -->\n    <div style=\"width: 20px; height: 20px; background: #00B67A; display: flex; align-items: center; justify-content: center; border-radius: 3px;\">\n      <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"white\" width=\"14\" height=\"14\"><path d=\"M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z\"/></svg>\n    </div>\n    <!-- Étoile 5 -->\n    <div style=\"width: 20px; height: 20px; background: #00B67A; display: flex; align-items: center; justify-content: center; border-radius: 3px;\">\n      <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"white\" width=\"14\" height=\"14\"><path d=\"M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z\"/></svg>\n    </div>\n  </div>\n\n  <!-- Texte notation -->\n  <div style=\"font-size: 14px; color: #000;\">\n    Noté <strong>4.8/5</strong> sur <strong>943 Bewertungen</strong>\n  </div>\n\n</div>"
+          }
         },
         "title_g3mBng": {
           "type": "title",
@@ -437,6 +439,12 @@
           "type": "price",
           "settings": {
             "show_taxes_notice": false
+          }
+        },
+        "liquid_3tUgfa": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<style>\n.stock-alert {\n  background: #ffe5e5;\n  color: #b40000;\n  padding: 3px 10px;\n  border-radius: 20px;\n  font-size: 0.75rem;\n  font-weight: 600;\n  display: inline-flex;\n  align-items: center;\n  gap: 5px;\n}\n\n.stock-dot {\n  width: 5px;\n  height: 5px;\n  background: #b40000;\n  border-radius: 50%;\n  animation: blink 1s infinite;\n}\n\n@keyframes blink {\n  0%, 100% { opacity: 1; }\n  50% { opacity: 0.3; }\n}\n</style>\n\n<div style=\"text-align: left; margin: 15px 0;\">\n  <div class=\"stock-alert\">\n    <div class=\"stock-dot\"></div>\n    Nur noch 4 Kits übrig.\n  </div>\n</div>"
           }
         },
         "rating_nHAatt": {
@@ -489,10 +497,11 @@
         }
       },
       "block_order": [
-        "vendor_mMeabi",
+        "liquid_ctm6Jd",
         "title_g3mBng",
         "badges_GrRtVY",
         "price_fJqyrB",
+        "liquid_3tUgfa",
         "rating_nHAatt",
         "separator_neKi63",
         "description_96kRxp",
@@ -504,8 +513,8 @@
       "name": "Featured product",
       "settings": {
         "full_width": true,
-        "product": "",
-        "desktop_media_width": 55,
+        "product": "xionora-anti-aging-hautpflege-zur-kollagen-erneuerung™",
+        "desktop_media_width": 35,
         "desktop_media_layout": "carousel_thumbnails_left",
         "mobile_media_size": "expanded",
         "mobile_carousel_control": "floating_dots",

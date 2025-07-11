@@ -15,12 +15,8 @@
         "liquid_zyiYQt": {
           "type": "liquid",
           "settings": {
-            "liquid": ""
+            "liquid": "<div style=\"display: flex; align-items: center; gap: 8px; margin: 15px 0;\">\n\n  <!-- Étoiles Trustpilot -->\n  <div style=\"display: flex; gap: 2px;\">\n    <!-- Étoile 1 -->\n    <div style=\"width: 20px; height: 20px; background: #00B67A; display: flex; align-items: center; justify-content: center; border-radius: 3px;\">\n      <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"white\" width=\"14\" height=\"14\"><path d=\"M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z\"/></svg>\n    </div>\n    <!-- Étoile 2 -->\n    <div style=\"width: 20px; height: 20px; background: #00B67A; display: flex; align-items: center; justify-content: center; border-radius: 3px;\">\n      <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"white\" width=\"14\" height=\"14\"><path d=\"M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z\"/></svg>\n    </div>\n    <!-- Étoile 3 -->\n    <div style=\"width: 20px; height: 20px; background: #00B67A; display: flex; align-items: center; justify-content: center; border-radius: 3px;\">\n      <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"white\" width=\"14\" height=\"14\"><path d=\"M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z\"/></svg>\n    </div>\n    <!-- Étoile 4 -->\n    <div style=\"width: 20px; height: 20px; background: #00B67A; display: flex; align-items: center; justify-content: center; border-radius: 3px;\">\n      <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"white\" width=\"14\" height=\"14\"><path d=\"M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z\"/></svg>\n    </div>\n    <!-- Étoile 5 -->\n    <div style=\"width: 20px; height: 20px; background: #00B67A; display: flex; align-items: center; justify-content: center; border-radius: 3px;\">\n      <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"white\" width=\"14\" height=\"14\"><path d=\"M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z\"/></svg>\n    </div>\n  </div>\n\n  <!-- Texte notation -->\n  <div style=\"font-size: 14px; color: #000;\">\n    Noté <strong>4.7/5</strong> sur <strong>1832 avis</strong>\n  </div>\n\n</div>"
           }
-        },
-        "vendor": {
-          "type": "vendor",
-          "settings": {}
         },
         "title": {
           "type": "title",
@@ -38,10 +34,18 @@
             "show_taxes_notice": false
           }
         },
-        "rating": {
-          "type": "rating",
+        "liquid_KgEaHr": {
+          "type": "liquid",
           "settings": {
-            "show_empty": false
+            "liquid": "<style>\n.stock-alert {\n  background: #ffe5e5;\n  color: #b40000;\n  padding: 3px 10px;\n  border-radius: 20px;\n  font-size: 0.75rem;\n  font-weight: 600;\n  display: inline-flex;\n  align-items: center;\n  gap: 5px;\n}\n\n.stock-dot {\n  width: 5px;\n  height: 5px;\n  background: #b40000;\n  border-radius: 50%;\n  animation: blink 1s infinite;\n}\n\n@keyframes blink {\n  0%, 100% { opacity: 1; }\n  50% { opacity: 0.3; }\n}\n</style>\n\n<div style=\"text-align: left; margin: 15px 0;\">\n  <div class=\"stock-alert\">\n    <div class=\"stock-dot\"></div>\n    Nur noch 4 Kits übrig !\n  </div>\n</div>"
+          }
+        },
+        "image_Gkn6DT": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Fullt_tiefe_Falten_auf_1_7f7317ff-2c0c-4161-a2c3-bb3d7341b532.png",
+            "alignment": "center",
+            "max_width": 500
           }
         },
         "payment_terms": {
@@ -89,11 +93,11 @@
       },
       "block_order": [
         "liquid_zyiYQt",
-        "vendor",
         "title",
         "badges",
         "price",
-        "rating",
+        "liquid_KgEaHr",
+        "image_Gkn6DT",
         "payment_terms",
         "separator",
         "description",
