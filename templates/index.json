@@ -27,7 +27,7 @@
             "button_link": "",
             "text_color": "#ffffff",
             "button_background": "#ffffff",
-            "button_text_color": "#000000",
+            "button_text_color": "#1a1a1a",
             "overlay_color": "#000000",
             "overlay_opacity": 30,
             "background": "",
@@ -72,7 +72,7 @@
         "full_width": true,
         "content_width": "small",
         "text_position": "center",
-        "background": "",
+        "background": "#ffffff",
         "background_gradient": "",
         "text_color": ""
       }
@@ -127,7 +127,7 @@
         "content": "",
         "text_alignment": "start",
         "items_per_row": 5,
-        "background": "",
+        "background": "#ffffff",
         "background_gradient": "",
         "text_color": "",
         "heading_color": "",
@@ -157,7 +157,7 @@
         "full_width": true,
         "content_width": "small",
         "text_position": "center",
-        "background": "",
+        "background": "#ffffff",
         "background_gradient": "",
         "text_color": ""
       }
@@ -176,7 +176,7 @@
         "desktop_text_position": "sm:place-self-center sm:text-center",
         "text_color": "#ffffff",
         "overlay_color": "#000000",
-        "overlay_opacity": 30
+        "overlay_opacity": 0
       }
     },
     "rich_text_9J6mWn": {
@@ -200,7 +200,7 @@
         "full_width": true,
         "content_width": "small",
         "text_position": "center",
-        "background": "",
+        "background": "#ffffff",
         "background_gradient": "",
         "text_color": ""
       }
@@ -234,7 +234,7 @@
         "external_video_url": "",
         "text_color": "#ffffff",
         "overlay_color": "#000000",
-        "overlay_opacity": 30
+        "overlay_opacity": 0
       }
     },
     "multi_column_nUcbXx": {
@@ -411,7 +411,7 @@
         "subheading": "About",
         "title": "Featured content",
         "content": "<p>Organize content into multiple columns to share useful information to your customers about your products, values...</p>",
-        "background": "",
+        "background": "#ffffff",
         "background_gradient": "",
         "text_color": ""
       }
@@ -487,10 +487,10 @@
           "settings": {
             "show_payment_button": false,
             "show_gift_card_recipient": true,
-            "atc_button_background": "",
+            "atc_button_background": "#4aadff",
             "atc_button_text_color": "",
-            "payment_button_background": "",
-            "payment_button_text_color": ""
+            "payment_button_background": "#4aadff",
+            "payment_button_text_color": "#4aadff"
           }
         },
         "pickup_availability_WwBKmH": {
@@ -533,7 +533,7 @@
         "enable_video_looping": false,
         "enable_image_zoom": true,
         "max_image_zoom_level": 3,
-        "background": "",
+        "background": "#ffffff",
         "background_gradient": "",
         "text_color": "",
         "input_background": "rgba(0,0,0,0)",
@@ -599,7 +599,7 @@
         "title": "",
         "text_alignment": "center",
         "first_tab_open": false,
-        "background": "",
+        "background": "#ffffff",
         "background_gradient": "",
         "text_color": "",
         "heading_color": "",
@@ -652,7 +652,7 @@
         "show_counter": true,
         "desktop_image_effect": "fade",
         "image_position": "start",
-        "background": "",
+        "background": "#ffffff",
         "background_gradient": "",
         "text_color": "",
         "heading_color": "",
@@ -689,7 +689,7 @@
       ],
       "name": "Image with text overlay",
       "settings": {
-        "full_width": false,
+        "full_width": true,
         "allow_transparent_header": false,
         "enable_parallax": false,
         "image_size": "auto",
@@ -736,7 +736,7 @@
         "full_width": true,
         "content_width": "small",
         "text_position": "center",
-        "background": "",
+        "background": "#ffffff",
         "background_gradient": "",
         "text_color": ""
       }
@@ -781,7 +781,7 @@
         "desktop_text_position": "sm:place-self-center sm:text-center",
         "text_color": "#ffffff",
         "overlay_color": "#000000",
-        "overlay_opacity": 30
+        "overlay_opacity": 0
       }
     },
     "faq_ngMeQB": {
@@ -861,12 +861,12 @@
         "title": "FAQ",
         "content": "",
         "team_avatar_width": 160,
-        "support_hours": "Our customer support is available Monday to Friday: 8am-8:30pm.",
-        "answer_time": "Average answer time: 24h",
+        "support_hours": "",
+        "answer_time": "",
         "button_text": "",
         "button_url": "",
         "text_position": "center",
-        "background": "",
+        "background": "#ffffff",
         "background_gradient": "",
         "text_color": "",
         "heading_color": "",
@@ -875,6 +875,27 @@
         "button_text_color": "",
         "accordion_background": "",
         "accordion_text_color": ""
+      }
+    },
+    "contact_rNgPRz": {
+      "type": "contact",
+      "name": "Contact form",
+      "settings": {
+        "full_width": true,
+        "subheading": "Wir sind 24 Stunden am Tag, 7 Tage die Woche für Sie da",
+        "title": "Eine Frage",
+        "content": "",
+        "text_position": "center",
+        "contact_form_size": "large",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "contact_background": "",
+        "contact_text_color": "",
+        "button_background": "#4aadff",
+        "button_text_color": "#ffffff"
       }
     }
   },
@@ -895,6 +916,7 @@
     "image_with_text_overlay_eTzpcV",
     "rich_text_LLB8nD",
     "image_with_text_overlay_BWMXYm",
-    "faq_ngMeQB"
+    "faq_ngMeQB",
+    "contact_rNgPRz"
   ]
 }
