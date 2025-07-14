@@ -308,7 +308,7 @@
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
         "text_color": "#ffffff",
-        "overlay_color": "#000000",
+        "overlay_color": "#ffffff",
         "overlay_opacity": 30
       }
     },
@@ -701,34 +701,87 @@
         "overlay_opacity": 0
       }
     },
-    "multiple_images_with_text_dJxwdf": {
-      "type": "multiple-images-with-text",
+    "rich_text_LLB8nD": {
+      "type": "rich-text",
       "blocks": {
-        "item_CJdpNC": {
-          "type": "item",
+        "subheading_V9Jtdj": {
+          "type": "subheading",
           "settings": {
-            "image_rotation_degrees": -2,
-            "subheading": "",
-            "title": "Heading 1",
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
-            "button_url": "",
-            "button_text": ""
+            "text": ""
+          }
+        },
+        "heading_zmTUnH": {
+          "type": "heading",
+          "settings": {
+            "text": "Warum Xionora wählen ?",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_7wXBDd": {
+          "type": "richtext",
+          "settings": {
+            "content": ""
           }
         }
       },
       "block_order": [
-        "item_CJdpNC"
+        "subheading_V9Jtdj",
+        "heading_zmTUnH",
+        "richtext_7wXBDd"
       ],
-      "name": "Multiple images with text",
+      "name": "Rich text",
       "settings": {
         "full_width": true,
-        "images_layout": "stacked",
-        "collage_images_alignment": "middle",
+        "content_width": "small",
+        "text_position": "center",
         "background": "",
         "background_gradient": "",
-        "text_color": "",
-        "button_background": "",
-        "button_text_color": ""
+        "text_color": ""
+      }
+    },
+    "image_with_text_overlay_BWMXYm": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "subheading_x6Ly3j": {
+          "type": "subheading",
+          "settings": {
+            "text": ""
+          }
+        },
+        "heading_hAzWiq": {
+          "type": "heading",
+          "settings": {
+            "text": "",
+            "heading_tag": "h1"
+          }
+        },
+        "richtext_ncgnVX": {
+          "type": "richtext",
+          "settings": {
+            "content": ""
+          }
+        }
+      },
+      "block_order": [
+        "subheading_x6Ly3j",
+        "heading_hAzWiq",
+        "richtext_ncgnVX"
+      ],
+      "name": "Image with text overlay",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify://shop_images/Xionora.png",
+        "mobile_image": "shopify://shop_images/Xionora_69d1525d-9d2e-4c0e-8a54-f4396d19fe0b.png",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
       }
     },
     "faq_ngMeQB": {
@@ -737,29 +790,69 @@
         "item_LY8UzN": {
           "type": "item",
           "settings": {
-            "title": "Do you ship overseas?",
-            "content": "<p>Yes, we ship all over the world. Shipping costs will apply, and will be added at checkout. We run discounts and promotions all year, so stay tuned for exclusive deals.</p>"
+            "title": "Wie funktioniert Xionora™ ?",
+            "content": "<p><strong>Lumaqo™ verwendet fortschrittliche Kugeln aus lyophilisiertem Kollagen, die mit einer nährstoffreichen Peptid-Essenz aktiviert werden.</strong><br/>Nach der Aktivierung dringen die Wirkstoffe tief in die Haut ein, um feine Linien sichtbar zu reduzieren, intensive Feuchtigkeit zu spenden und die Elastizität wiederherzustellen – für ein strafferes und sichtbar verjüngtes Hautbild.</p>"
           }
         },
         "item_n3B9Ce": {
           "type": "item",
           "settings": {
-            "title": "How long will it take to get my orders?",
-            "content": "<p>It depends on where you are. Orders processed here will take 5-7 business days to arrive. Overseas deliveries can take anywhere from 7-16 days. Delivery details will be provided in your confirmation email.</p>"
+            "title": "Wann sehe ich die ersten Ergebnisse ?",
+            "content": "<p>Viele Anwender bemerken bereits nach wenigen Anwendungen eine Verbesserung der Hautstruktur und der Feuchtigkeitsversorgung. Bei regelmäßiger Anwendung werden feine Linien, Festigkeit und Hautausstrahlung nach und nach sichtbar verbessert.</p><p></p>"
           }
         },
         "item_WzCkKz": {
           "type": "item",
           "settings": {
-            "title": "Any question?",
-            "content": "<p>You can contact us through our contact page! We will be happy to assist you.</p>"
+            "title": "Was macht Xionora™ anders als andere Hautpflegeprodukte?",
+            "content": "<p><strong>Xionora™</strong> zeichnet sich durch eine exklusive Technologie mit lyophilisierten Kollagenkugeln aus, die direkt vor der Anwendung aktiviert werden. Im Gegensatz zu herkömmlichen Cremes, die nur oberflächlich wirken, dringt <strong>Xionora™</strong> tief in die Haut ein, fördert die Zellregeneration, spendet intensive Feuchtigkeit und stellt die Elastizität der Haut wieder her. Die frisch aktivierte Formel sorgt für maximale Wirksamkeit und sichtbar schnelle Ergebnisse – ganz ohne Injektionen oder invasive Verfahren.</p>"
+          }
+        },
+        "item_TMdgPg": {
+          "type": "item",
+          "settings": {
+            "title": "Für wen ist Xionora™ geeignet?",
+            "content": "<p><strong>Xionora™ ist speziell für Frauen entwickelt, die sichtbare Falten reduzieren, ihre Haut straffen und einen jugendlich strahlenden Teint zurückgewinnen möchten.</strong><br/>Egal, ob Sie mit feinen Linien, einem fahlen Teint oder vergrößerten Poren zu kämpfen haben die sanfte Formel ist für alle Hauttypen geeignet. Es ist die ideale Wahl für alle, die den Alterungsprozess der Haut auf natürliche Weise wieder selbst in die Hand nehmen wollen.</p>"
+          }
+        },
+        "item_9a47mp": {
+          "type": "item",
+          "settings": {
+            "title": "Wie oft sollte ich Xionora™ verwenden?",
+            "content": "<p>Wir empfehlen, die Xionora™ Behandlung alle 6 Tage anzuwenden, um die 5 Behandlungen innerhalb eines Monats durchzuführen. Dieses Intervall ermöglicht Ihrer Haut, jede Anwendung optimal aufzunehmen und darauf zu reagieren für beste Ergebnisse. Bei regelmäßiger Anwendung werden Sie bereits nach wenigen Wochen eine glattere und strahlendere Haut feststellen.</p>"
+          }
+        },
+        "item_NCz4QW": {
+          "type": "item",
+          "settings": {
+            "title": "Kann ich Xionora™ mit meiner aktuellen Pflegeroutine kombinieren?",
+            "content": "<p>Ja! Xionora™ lässt sich problemlos in Ihre gewohnte Pflegeroutine integrieren. Für optimale Ergebnisse tragen Sie es auf frisch gereinigte Haut auf, bevor Sie Ihre Seren oder Feuchtigkeitscremes verwenden.</p>"
+          }
+        },
+        "item_qWTP7A": {
+          "type": "item",
+          "settings": {
+            "title": "Ist Xionora™ auch für empfindliche Haut geeignet?",
+            "content": "<p>Ja. Xionora™ ist so formuliert, dass es sanft, beruhigend und nicht reizend wirkt – daher ist es auch für empfindlichste Haut bestens geeignet.</p>"
+          }
+        },
+        "item_Bpkgm9": {
+          "type": "item",
+          "settings": {
+            "title": "Wie kann ich Sie kontaktieren?",
+            "content": "<p>Wenn Sie Fragen haben, zögern Sie bitte nicht, uns zu kontaktieren – wir helfen Ihnen gerne weiter.<br/><br/>Unsere Experten stehen Ihnen 7 Tage die Woche zur Verfügung, um all Ihre Anliegen zu beantworten.<br/><br/>Bitte schauen Sie zunächst in unseren FAQ-Bereich, ob Ihre Frage dort bereits beantwortet wird.<br/><br/>Kontakt: <a>contact@Xionora.com</a></p>"
           }
         }
       },
       "block_order": [
         "item_LY8UzN",
         "item_n3B9Ce",
-        "item_WzCkKz"
+        "item_WzCkKz",
+        "item_TMdgPg",
+        "item_9a47mp",
+        "item_NCz4QW",
+        "item_qWTP7A",
+        "item_Bpkgm9"
       ],
       "name": "FAQ",
       "settings": {
@@ -783,100 +876,6 @@
         "accordion_background": "",
         "accordion_text_color": ""
       }
-    },
-    "collection-list": {
-      "type": "collection-list",
-      "blocks": {
-        "collection-1": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "subheading": "",
-            "title": "",
-            "url": "",
-            "heading_tag": "h2",
-            "text_position": "place-self-center text-center",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 30
-          }
-        },
-        "collection-2": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "subheading": "",
-            "title": "",
-            "url": "",
-            "heading_tag": "h2",
-            "text_position": "place-self-center text-center",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 30
-          }
-        },
-        "collection-3": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "subheading": "",
-            "title": "",
-            "url": "",
-            "heading_tag": "h2",
-            "text_position": "place-self-center text-center",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 30
-          }
-        }
-      },
-      "block_order": [
-        "collection-1",
-        "collection-2",
-        "collection-3"
-      ],
-      "settings": {
-        "full_width": true,
-        "stack_collections": false,
-        "collections_per_row_mobile": "1",
-        "collections_per_row": 3,
-        "show_progress_bar": false,
-        "subheading": "",
-        "title": "Collection list",
-        "content": "",
-        "link_url": "",
-        "link_text": "View all",
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": ""
-      }
-    },
-    "featured-collection": {
-      "type": "featured-collection",
-      "settings": {
-        "collection": "",
-        "products": [],
-        "full_width": true,
-        "stack_products": false,
-        "show_progress_bar": false,
-        "products_count": 6,
-        "products_per_row_mobile": "1",
-        "products_per_row_desktop": 2,
-        "subheading": "",
-        "title": "Featured collection",
-        "content": "",
-        "link_url": "",
-        "link_text": "View all",
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": "",
-        "product_card_background": "",
-        "product_card_text_color": ""
-      }
     }
   },
   "order": [
@@ -894,9 +893,8 @@
     "tabs_C8gg7Q",
     "images_with_text_scrolling_4eQa3W",
     "image_with_text_overlay_eTzpcV",
-    "multiple_images_with_text_dJxwdf",
-    "faq_ngMeQB",
-    "collection-list",
-    "featured-collection"
+    "rich_text_LLB8nD",
+    "image_with_text_overlay_BWMXYm",
+    "faq_ngMeQB"
   ]
 }
