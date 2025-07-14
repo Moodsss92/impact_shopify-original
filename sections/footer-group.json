@@ -19,7 +19,7 @@
           "settings": {
             "image_width": 150,
             "heading_size": "h3",
-            "title": "Sign up for new stories and personal offers",
+            "title": "Tritt dem Beauty Club bei",
             "content": ""
           }
         },
@@ -34,8 +34,8 @@
         "text": {
           "type": "text",
           "settings": {
-            "title": "About",
-            "content": "<p>Use this text area to tell your customers about your brand and vision. You can change it in the theme editor.</p>",
+            "title": "Kontaktieren Sie uns",
+            "content": "<p>Kundendienst: contact@xionora.com<br/><br/><strong>Öffnungszeiten: </strong>Mo–Fr: 9:00 – 18:00 Uhr<br/>Sa: 12:00 – 18:00 Uhr</p>",
             "enable_follow_on_shop": true
           }
         }
