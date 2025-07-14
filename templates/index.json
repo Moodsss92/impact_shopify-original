@@ -393,7 +393,7 @@
           "settings": {
             "image": "shopify://shop_images/Fullt_tiefe_Falten_auf_1_b82dc4c6-1de1-4afc-844d-1eb4602f9c35.png",
             "alignment": "center",
-            "max_width": 390
+            "max_width": 500
           }
         },
         "separator_neKi63": {
@@ -410,10 +410,6 @@
             "variant_image_options": "",
             "size_chart_page": ""
           }
-        },
-        "quantity_selector_mH3VDy": {
-          "type": "quantity_selector",
-          "settings": {}
         },
         "image_nkKRC3": {
           "type": "image",
@@ -456,7 +452,6 @@
         "image_ThD3Fz",
         "separator_neKi63",
         "variant_picker_QkF6jf",
-        "quantity_selector_mH3VDy",
         "image_nkKRC3",
         "buy_buttons_FfJLbz",
         "pickup_availability_WwBKmH",
