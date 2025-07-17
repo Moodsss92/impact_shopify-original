@@ -419,6 +419,12 @@
             "max_width": 500
           }
         },
+        "liquid_hGt8za": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<style>\n.stock-alert {\n  background: #ffe5e5;\n  color: #b40000;\n  padding: 3px 10px;\n  border-radius: 20px;\n  font-size: 0.75rem;\n  font-weight: 600;\n  display: inline-flex;\n  align-items: center;\n  gap: 5px;\n}\n\n.stock-dot {\n  width: 5px;\n  height: 5px;\n  background: #b40000;\n  border-radius: 50%;\n  animation: blink 1s infinite;\n}\n\n@keyframes blink {\n  0%, 100% { opacity: 1; }\n  50% { opacity: 0.3; }\n}\n</style>\n\n<div style=\"text-align: left; margin: 15px 0;\">\n  <div class=\"stock-alert\">\n    <div class=\"stock-dot\"></div>\n    Nur noch 4 Kits übrig.\n  </div>\n</div>"
+          }
+        },
         "buy_buttons_FfJLbz": {
           "type": "buy_buttons",
           "settings": {
@@ -453,6 +459,7 @@
         "separator_neKi63",
         "variant_picker_QkF6jf",
         "image_nkKRC3",
+        "liquid_hGt8za",
         "buy_buttons_FfJLbz",
         "pickup_availability_WwBKmH",
         "image_pA8Ftq"
