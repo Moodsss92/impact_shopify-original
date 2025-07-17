@@ -483,6 +483,49 @@
         "input_text_color": ""
       }
     },
+    "image_with_text_overlay_jLCkMx": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "subheading_K7WhVg": {
+          "type": "subheading",
+          "settings": {
+            "text": ""
+          }
+        },
+        "heading_rijUwN": {
+          "type": "heading",
+          "settings": {
+            "text": "",
+            "heading_tag": "h1"
+          }
+        },
+        "richtext_XVaeFk": {
+          "type": "richtext",
+          "settings": {
+            "content": ""
+          }
+        }
+      },
+      "block_order": [
+        "subheading_K7WhVg",
+        "heading_rijUwN",
+        "richtext_XVaeFk"
+      ],
+      "name": "Image with text overlay",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify://shop_images/Capture_d_ecran_2025-07-17_a_14.14.53.png",
+        "mobile_image": "shopify://shop_images/Capture_d_ecran_2025-07-17_a_14.14.53_6abc0da0-1340-46bd-ba5b-5dcf78b10393.png",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
     "tabs_C8gg7Q": {
       "type": "tabs",
       "blocks": {
@@ -942,6 +985,7 @@
     "image_with_text_overlay_JVzdwf",
     "multi_column_D6wyMq",
     "featured_product_UWXbFN",
+    "image_with_text_overlay_jLCkMx",
     "tabs_C8gg7Q",
     "images_with_text_scrolling_4eQa3W",
     "image_with_text_overlay_eTzpcV",
